@@ -1,0 +1,144 @@
+:root
+  font-family: Teko
+  line-height: 1.5
+  font-weight: 400
+
+  color: rgba(255, 255, 255, 0.87)
+  background: #1C1A1A
+
+  font-synthesis: none
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  --gradien: 45deg,#7C6FCFF7, #74AEAAF2, #6FCF97
+
+*
+  padding: 0
+  margin: 0
+
+a
+  font-weight: 500
+  color: #646cff
+  text-decoration: inherit
+
+a:hover
+  color: #535bf2
+
+body
+  margin: 0
+  min-width: 320px
+  min-height: 100vh
+
+#root
+  display: grid
+  padding: 30px
+  gap: 40px
+
+button
+  border: 0
+  font-size: 1em
+  font-family: inherit
+  cursor: pointer
+
+.left-side
+  display: grid
+  height: 738px
+  align-items: center
+.bit, .eth, .lite
+  position: absolute
+  z-index: -1
+  right: 5%
+.bit
+  top: 10px
+.lite
+  top: 30%
+  right: 25%
+.eth
+  bottom: 0
+
+.header-big-text
+  font-size: 84px
+  font-weight: 700
+  max-width: 1008px
+  line-height: 100px
+  text-transform: uppercase
+  span
+    background: -webkit-linear-gradient(var(--gradien))
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+
+.call-to-action
+  font-size: 34px
+  font-weight: 400
+  color: #828282
+  line-height: 40px
+
+.statisctics-container
+  display: flex
+  gap: 126px
+  padding: 0 0 50px
+  .statistics-num
+    font-size: 48px
+    font-weight: 700
+    line-height: 48px
+  .statistic-description
+    font-size: 18px
+    line-height: 24px
+    color: #F2F2F24D
+
+.join-btn
+  padding: 14px 0
+  font-size: 28px
+  line-height: 28px
+  font-weight: 500
+  width: 532px
+  border-radius: 16px
+  background: -webkit-linear-gradient(var(--gradien))
+  box-shadow: 0px 0px 130px 0px #7c6fcf21, 0px 0 130px 0 #74aeaa2d, 0 0 130px 0 #6fcf971f
+
+@media (max-width:678px)
+  #root
+    padding: 20px 0
+    justify-items: center
+    gap: 15px
+  .left-side
+    height: 500px
+    justify-items: center
+    gap: 20px
+  .bit, .eth, .lite
+    width: 136px
+    height: min-content
+    filter: blur(5px)
+  .lite
+    top: 12%
+    left: 5%
+  .bit
+    top: 10px
+  .eth
+    top: 34%
+  .header-big-text
+    font-size: 40px
+    line-height: 43px
+    text-align: center
+    width: 270px
+    word-break: break-word
+  .call-to-action
+    font-size: 20px
+    line-height: 24px
+    text-align: center
+    width: 200px
+  .statisctics-container
+    gap: 49px
+    padding: 0
+    .statistics-num
+      font-size: 28px
+      font-weight: 700
+      line-height: 28px
+    .statistic-description
+      font-size: 14px
+      line-height: 20px
+      color: #F2F2F24D
+  .join-btn
+    width: 288px
+    font-size: 20px
+    padding: 12px 0

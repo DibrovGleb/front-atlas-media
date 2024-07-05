@@ -1,33 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import Aside from './components/Aside/Aside'
+import BigText from './components/BigText'
+import Bitcoin from './components/CryptoCurrency/Bitcoin'
+import Ethereum from './components/CryptoCurrency/Ethereum'
+import Litecoin from './components/CryptoCurrency/Litecoin'
+import Footer from './components/Footer/Footer'
+import Statistics from './components/Statistics'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Bitcoin />
+      <Ethereum />
+      <Litecoin />
+      <main>
+        <article className="left-side">
+          <BigText />
+          <p className='call-to-action'>Subscribe to our channel to learn more</p>
+          <Statistics />
+          <button className="join-btn">JOIN WHATSAPP</button>
+        </article>
+        <Aside />
+      </main>
+      <Footer />
     </>
   )
 }

@@ -1,6 +1,6 @@
 <div align="center">
 
-# [Demo](https://dibrovgleb.github.io/Vite-react-ts-ghpages-template/)
+# [Демо](https://dibrovgleb.github.io/front-atlas-media/)
 
 </div>
 
@@ -11,17 +11,3 @@
 ![Git](https://img.shields.io/badge/-Git-181717?style=for-the-badge&logo=git)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)
 
-## Features example
-
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
-
-<div align="center">
-
-## Screenshot
-
-![App Screenshot](https://i.imgur.com/HIOmHJ1.png)
-
-</div>

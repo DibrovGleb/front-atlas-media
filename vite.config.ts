@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "https://dibrovgleb.github.io/Vite-react-ts-ghpages-template/",
+  base: "https://dibrovgleb.github.io/front-atlas-media/",
   plugins: [react()],
 })

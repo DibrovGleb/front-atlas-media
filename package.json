@@ -1,8 +1,8 @@
 {
-  "name": "Vite-react-ts-ghpages-template",
+  "name": "front-atlas-media",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dibrovgleb.github.io/Vite-react-ts-ghpages-template/",
+  "homepage": "https://dibrovgleb.github.io/front-atlas-media/",
   "type": "module",
   "scripts": {
     "deploy": "gh-pages -d dist",

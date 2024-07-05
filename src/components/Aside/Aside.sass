@@ -1,0 +1,39 @@
+aside
+  display: grid
+  gap: 20px
+  position: absolute
+  right: 10%
+  top: 15%
+  @media (max-width:1360px)
+    display: none
+.review-container
+  background: #302D2D57
+  border-radius: 20px
+  padding: 16px 0px 16px 20px
+  width: 288px
+  &.even
+    margin-left: 100px
+.review-img-info
+  display: flex
+  gap: 20px
+  img
+    border-radius: 50px
+    border: 1px solid transparent
+    background: linear-gradient(to right, white, white), linear-gradient(45deg,#7C6FCFF7, #74AEAAF2, #6FCF97)
+    background-clip: padding-box, border-box
+    background-origin: padding-box, border-box
+
+.review-info
+  p
+    &:first-child
+      font-size: 18px
+      font-weight: 600
+    &:last-child
+      font-size: 16px
+      color: #F2F2F266
+
+.review-text
+  font-size: 18px
+  font-weight: 400
+  max-width: 238px
+  margin-top: 16px
