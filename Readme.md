@@ -15,8 +15,6 @@
 
 ## Как установить проект
 
-To download the template and start developing run the following commands
-
 ```shell
   git clone https://github.com/DibrovGleb/front-atlas-media.git
 ```
